@@ -8,19 +8,20 @@ POST add new user
 DELETE all users and journals  
 -------
 
-route '/:username'
+route '/user/:username'
 
 GET get all journals for a user with @username
 POST post a new journal for @username
 DELETE  all posts for the @username
 
-route '/:username/update
+route '/user/:username
 
 PUT PATCH - update user's profile
 -------
 
-route '/:username/date/:date
+params 
+route '/user/:username?id=<id>
 
-GET - get journal on that day
-DELETE - delete the journal 
-PUT PATCH - update the journal on that day
+GET - get journal with <id>
+DELETE - delete the journal <id>
+PUT PATCH - update the journal with <id>
