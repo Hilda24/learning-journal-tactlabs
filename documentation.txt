@@ -1,0 +1,23 @@
+API
+------------------------
+
+route '/'
+
+GET all users and journals
+POST add new user
+DELETE all users and journals  
+-------
+
+route '/:username'
+
+GET get all journals for a user with @username
+POST post a new journal for @username
+DELETE  a post for the @username
+PUT PATCH - update user's profile
+-------
+
+route '/:username/:date
+
+GET - get journal on that day
+DELETE - delete the journal 
+PUT PATCH - update the journal on that day
