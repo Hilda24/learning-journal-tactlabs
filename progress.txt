@@ -1,1 +1,6 @@
-day 1 - 
+day 1 (09/11/2020) from 7.00pm to 9.00pm
+---------
+Godlin - connect to mongodb with pymongo
+Sharmila - define routing with methods
+
+day 2
