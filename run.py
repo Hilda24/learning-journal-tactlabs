@@ -5,7 +5,7 @@ from flask import Flask
 from flask import request
 app = Flask(__name__)
 
-client = pymongo.MongoClient("mongodb+srv://Godlin_hilda:1234@cluster0.mvqfv.mongodb.net/<dbname>?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://Godlin_hilda:1234@cluster0.mvqfv.mongodb.net/test?retryWrites=true&w=majority")
 db = client['test']
 collection = db['test']
 @app.route("/", methods=['POST'])
